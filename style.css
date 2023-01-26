@@ -1,0 +1,61 @@
+.navbar-nav .nav-item{
+    text-align:right;
+    padding:14px;
+    font-size:large;
+}
+#headphone{
+    color: chocolate;
+}
+#tv{
+    color: chocolate;
+}
+.xbox{
+    color: chocolate;
+}
+.buy-now-button{
+    background-color: sandybrown;
+    color:black;
+}
+.orange{
+    background-color: #fceae8;
+}
+.container{
+    margin-top: 20px;
+    
+}
+.cat1{
+    background-color: gold;
+}
+.cat2{
+    background-color: hotpink;
+}
+.cat3{
+    background-color: indianred;
+}
+.cat1, .cat2, .cat3{
+    padding:10px 20px;
+    border-radius: 8px;
+}
+.container img{
+    width:100px;
+
+}
+.button{
+    background-color: orange;
+}
+.container-shoes h5{
+    color:teal;
+}
+.card{
+    border:none;
+    box-shadow: 5px 5px 5px teal;
+}
+.container-contact{
+    text-align: center;
+    margin-top:15px;
+}
+.foot{
+    text-align: center;
+    margin:22px;
+}
+    

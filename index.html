@@ -1,0 +1,202 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#"><img src="images/logo.png"></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#shoes">Shoes</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#backpack">Backpack</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#contact">Contact Us</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      
+      <div id="carouselExampleAutoplaying" class="carousel slide orange" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div class="row align-items-center">
+                <div class="col-md-8">
+                    <h1>Bluetooth headphone</h1>
+                    <p>You can get original sound on this.</p>
+                    <p><span id="headphone">Price: 1000 Taka</span></p>
+                    <button class="buy-now-button">Buy now</button>
+
+                </div>
+            <div class="col-md-4">
+            <img src="images/headphone.png" class="d-block w-100" alt="...">
+            </div>
+            </div>
+         </div>
+          <div class="carousel-item">
+            <div class="row align-items-center">
+              <div class="col-md-8">
+                <h1>Mega LCD TV</h1>
+                <p>This is the best tv for sports. You can watch youtube and also play games on this tv.</p>
+                <p><span id="tv">Price: 30000 Taka</span></p>
+                <button class="buy-now-button">Buy now</button>
+
+              </div>
+            <div class="col-md-4">
+            <img src="images/tv.png" class="d-block w-100" alt="...">
+            </div>
+          </div>
+        </div>
+          <div class="carousel-item">
+            <div class="row align-items-center">
+            <div class="col-md-8">
+                <h1>Best X-Box</h1>
+                <p>It's the best X-Box in Bangladesh at this time. You can play all games with this.</p>
+                <p><span class="xbox">Price: 27000 Taka</span></p>
+                <button class="buy-now-button">Buy now</button>
+
+            </div>
+            <div class="col-md-4">
+            <img src="images/xbox.png" class="d-block w-100" alt="...">
+            </div>
+            </div>
+          </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4">
+            <div class="d-flex justify-content-between align-items-center cat1">
+            <h1>Watch</h1>
+            <img src="images/watch.png">
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="d-flex justify-content-between align-items-center cat2">
+            <h1>Bag</h1>
+            <img src="images/bag.png">
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="d-flex justify-content-between align-items-center cat3">
+            <h1>Shoes</h1>
+            <img src="images/shoes.png">
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="container-shoes" id="shoes">
+        <h3>Shoes</h3>
+        <div class="card-group">
+          <div class="card">
+            <img src="images/shoe-1.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h4 class="card-title">SPLY-350</h4>
+              <p class="card-text">This is a good Sports Shoes.You can buy these with reasonable price.</p>
+              <h5>2800 Taka</h5>
+              <button class="button">Buy now</button>
+            </div>
+          </div>
+          <div class="card">
+            <img src="images/shoe-2.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h4 class="card-title">Nike-Zoom</h4>
+              <p class="card-text">Best brand of Nike company.</p>
+              <h5>2500 Taka</h5>
+              <button class="button">Buy now</button>
+              
+            </div>
+          </div>
+          <div class="card">
+            <img src="images/shoe-3.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h4 class="card-title">Airmax</h4>
+              <p class="card-text">This is a new brand.Airmax is the best shoes for sports.</p>
+              <h5>3500 Taka</h5>
+              <button class="button">Buy now</button>
+            </div>
+          </div>
+        </div>
+        <div class="container-backpack" id="backpack">
+          <h3>Backpack</h3>
+          <div class="card-group">
+            <div class="card">
+              <img src="images/bag-1.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h4 class="card-title">Red bag</h4>
+                <p class="card-text">Stylish bag for the student and employers.</p>
+                <p>2400 Taka</p>
+              </div>
+              <div class="card-footer">
+               <button class="button">Buy now</button>
+              </div>
+            </div>
+            <div class="card">
+              <img src="images/bag-2.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h4 class="card-title">Blue Bag</h4>
+                <p class="card-text">This is the bag for every student and workers.</p>
+                <p>2000 Taka</p>
+              </div>
+              <div class="card-footer">
+               <button class="button">Buy now</button>
+              </div>
+            </div>
+            <div class="card">
+              <img src="images/bag-3.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h4 class="card-title">Black Bag</h4>
+                <p class="card-text">Good bag for every School and University boys and girls.</p>
+                <p>1200 Taka</p>
+              </div>
+              <div class="card-footer">
+                <button class="button">Buy now</button>
+              </div>
+            </div>
+          </div>
+          <div class="container-contact orange" id="contact">
+            <h2>Let's stay in touch</h3>
+            <h3>Need any items?Don't worry we are here.</h4>
+            <h4>Our mobile number:+8801827094228</h4>
+            
+            <input type="text">
+            <button class="button">Submit</button>
+            </div>
+            <footer>
+              <p class="foot">© Copyright Panda Irfan.January 2023</p>
+            </footer>
+       
+         
+              
+              
+         
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js" integrity="sha384-mQ93GR66B00ZXjt0YO5KlohRA5SY2XofN4zfuZxLkoj1gXtW8ANNCe9d5Y3eG5eD" crossorigin="anonymous"></script>
+  </body>
+</html>
